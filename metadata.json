@@ -1,0 +1,6 @@
+{
+  "name": "Strava Run Tracker & Heart Rate Analytics",
+  "description": "Strava-inspired running record platform with real-time Bluetooth heart rate monitoring, detailed interactive map analysis, telemetry charts, GPX route support, and fitness insights.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

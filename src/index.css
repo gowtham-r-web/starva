@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Custom scrollbars for dark telemetry UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #181a20;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e323d;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FC5200;
+}
+
+/* Leaflet map custom overrides for sleek dark theme */
+.leaflet-container {
+  background: #111318 !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #1c1e24 !important;
+  color: #f1f5f9 !important;
+  border: 1px solid #2e323d !important;
+  border-radius: 12px !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.leaflet-popup-tip {
+  background: #1c1e24 !important;
+}
+
+.leaflet-control-zoom a {
+  background-color: #1c1e24 !important;
+  color: #e2e8f0 !important;
+  border-color: #2e323d !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: #2a2d36 !important;
+  color: #ffffff !important;
+}
